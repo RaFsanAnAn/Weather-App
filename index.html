@@ -50,7 +50,7 @@
         });
 
         function loadData(city) {
-            fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=e2ac77695ba05daecf9468d1336745d9`)
+            fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=e2ac77695ba05daecf9468d1336745d9`)
                 .then(response => response.json())
                 .then(data => {
 
